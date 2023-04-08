@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="speaker" default="1"/>
+    <arg name="host" default="127.0.0.1"/>
+    <arg name="port" default="50021"/>
+    <arg name="sound_file_path" default="./audio.wav"/>
+    <node pkg="voicevox_ros" name="voicevox_text_to_speech" type="VoicevoxTextToSpeech.py" output="screen">
+        <param name="speaker" value="$(arg speaker)"/>
+        <param name="host" value="$(arg host)"/>
+        <param name="port" value="$(arg port)"/>
+        <param name="sound_file_path" value="$(arg sound_file_path)"/>
+    </node>
+</launch>

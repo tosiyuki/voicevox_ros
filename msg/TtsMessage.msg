@@ -1,0 +1,2 @@
+string text
+float64 speed_scale
