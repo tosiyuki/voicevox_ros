@@ -1,4 +1,4 @@
-# voicevox_ros1
+# voicevox_ros
 VOICEVOXをROS1で手軽に実行できるようROSパッケージにしました。  
 Ubuntu20.04 + ROS Melodicで動作確認をしています。
 
