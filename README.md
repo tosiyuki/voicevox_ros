@@ -1,0 +1,2 @@
+# voicevox_ros
+VOICEVOXをROS1で手軽に実行できるようROSパッケージにしました。
